@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import { useState, useEffect } from 'react';
-import Characters from '../Components/Characters';
+import Characters from '../components/Characters';
 import fetchApi from '../util/api';
 
 const Home: NextPage = () => {

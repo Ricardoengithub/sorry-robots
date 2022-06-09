@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 interface Character {
   characters: any;
