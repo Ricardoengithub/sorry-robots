@@ -1,7 +1,11 @@
 import type { NextPage } from 'next'
 import { useState, useEffect } from 'react';
 
-const Characters: NextPage = ({characters}: any) => {
+interface Character {
+  characters: any;
+}
+
+const Characters: NextPage<Character> = ({characters}: any) => {
   const [idx, setIDX] = useState(-1)
 
   return (
