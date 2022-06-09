@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import { useState, useEffect } from 'react';
 import Characters from '../components/Characters';
 import fetchApi from '../util/api';
@@ -51,6 +52,9 @@ const Home: NextPage = () => {
 
   return (
     <div className="w-full">
+      <Head>
+        <title>Sorry robots test</title>
+      </Head>
       <div className='text-center'>
         <h1 className="text-5xl pt-12 pb-12">
           Rick and Morty Test
