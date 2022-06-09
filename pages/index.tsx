@@ -17,6 +17,7 @@ const Home: NextPage = () => {
             image
             status
             gender
+            species
             origin {
               name
             }
