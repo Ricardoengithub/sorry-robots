@@ -33,7 +33,7 @@ const Info: NextPage<Info> = ({item}: any) => {
   return (
     <div>
       {!isEpisode ? (
-        <div className="flex flex-col justify-between w-80 ml-12 h-48 items-left bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 p-6">
+        <div className="flex flex-col justify-between w-80 ml-12 h-48 items-left bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 p-6">
           <p className="flex justify-between text-xs">
             <b>Name: </b>
             <i>{name}</i>
@@ -73,7 +73,7 @@ const Info: NextPage<Info> = ({item}: any) => {
           </p>
         </div>
       ) : (
-        <div className="flex flex-col justify-between overflow-scroll overflow-x-hidden w-80 ml-12 h-48 items-left bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 p-6">
+        <div className="flex flex-col justify-between overflow-scroll overflow-x-hidden w-80 ml-12 h-48 items-left bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 p-6">
           <p className="flex justify-between text-xs">
             <b>Name: </b>
             <i>{episode[0].name}</i>
